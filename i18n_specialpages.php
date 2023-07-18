@@ -62,8 +62,8 @@ if (basename($_SERVER['PHP_SELF']) == 'load.php' && @$_GET['id'] == 'i18n_specia
 # register plugin
 register_plugin(
   $thisfile, 
-  'I18N Special Pages',  
-  '1.4.3 (CE EDIT)',    
+  'I18N Special Pages (CE EDIT)',  
+  '1.4.3 ',    
   'Martin Vlcek',
   'http://mvlcek.bplaced.net', 
   'Define special (custom) fields for page categories and provide customized editing and displaying (I18N enabled)',
